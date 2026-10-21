@@ -1,8 +1,8 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom :** BENTLEY
 
-**Prénom :** 
+**Prénom :** Charlotte
 
 **Adresse de mon site :** https://______.pythonanywhere.com
 
