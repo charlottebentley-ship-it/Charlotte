@@ -19,7 +19,6 @@ app = Flask(__name__)
 @app.get("/")
 def accueil():
     return "Bienvenue sur le site de Charlotte 🚀!"
-    return "J'aime le sport et la peinture."
 
 
 # ---------------------------------------------------------------
@@ -27,8 +26,15 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "Je m'appelle Charlotte et je suis étudiante à l'ICAM"
-
+    return """
+    <h1>Je me présente, je m'appelle Charlotte Bentley.</h1>
+    <p>Je suis étudiante en <strong>première année d'informatique</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Les jeux vidéo</li>
+        <li>La musique</li>
+        <li>Le code (bientôt !)</li>
+    </ul>
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
