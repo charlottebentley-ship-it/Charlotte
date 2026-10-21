@@ -19,6 +19,7 @@ app = Flask(__name__)
 @app.get("/")
 def accueil():
     return "Bienvenue sur le site de Charlotte 🚀!"
+    return "J'aime le sport et la peinture."
 
 
 # ---------------------------------------------------------------
