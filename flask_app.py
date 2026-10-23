@@ -27,8 +27,8 @@ def accueil():
 @app.get("/presentation")
 def presentation():
     return """
-    <h1>Je me présente, je m'appelle Charlotte Bentley.</h1>
-    <p>Je suis étudiante en <strong>deuxième année en école d'ingénieur</strong>.</p>
+    <h1>Bienvenue sur le site de Charlotte 🚀!</h1>
+    <p>Je me présente, je m'appelle Charlotte Bentley, je suis étudiante en <strong>deuxième année en école d'ingénieur</strong>.</p>
     <h2>Ce que j'aime</h2>
     <ul>
         <li>L'équitation</li>
