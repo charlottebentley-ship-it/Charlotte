@@ -90,19 +90,19 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > HyperText Transfer Protocol, le navigateur envoie la requête et le serveur envoie la réponse
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > 4 ou 5 requête
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > 404 signifie qu'il y a une erreur et que la requête n'a pas été trouvé et 200 ca veut dire ok, que la quête à été trouvée.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > Il modifie seulement la copie de la page chargée.
 
 ---
 
