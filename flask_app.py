@@ -35,6 +35,7 @@ def presentation():
         <li>La musique</li>
         <li>Et le sport bien sûr</li>
     </ul>
+    """
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
