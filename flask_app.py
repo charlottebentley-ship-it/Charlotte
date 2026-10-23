@@ -36,6 +36,7 @@ def presentation():
         <li>Et le sport bien sûr</li>
     </ul>
     """
+    <img src="https://thumb.wikimedia.org/wikipedia/fr/thumb/1/1d/Logo_ICAM_-_2008.svg/1280px-Logo_ICAM_-_2008.svg.png?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=thumbnail" width="100">
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
