@@ -43,15 +43,18 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > La mise en page
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > h1 pour la fonction du texte: titre, corps de texte, ...
+   > p pour un paragraphe
+   > ul pour créer une liste
+   > li pour une ligne dans la liste
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > Car elle envoie une balise qui contient le lien de la photo qui se trouve sur le Web.
 
 ---
 
