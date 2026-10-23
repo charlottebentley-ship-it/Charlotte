@@ -28,12 +28,12 @@ def accueil():
 def presentation():
     return """
     <h1>Je me présente, je m'appelle Charlotte Bentley.</h1>
-    <p>Je suis étudiante en <strong>première année d'informatique</strong>.</p>
+    <p>Je suis étudiante en <strong>deuxième année en école d'ingénieur</strong>.</p>
     <h2>Ce que j'aime</h2>
     <ul>
-        <li>Les jeux vidéo</li>
+        <li>L'équitation</li>
         <li>La musique</li>
-        <li>Le code (bientôt !)</li>
+        <li>Et le sport bien sûr</li>
     </ul>
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
