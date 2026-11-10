@@ -142,15 +142,15 @@
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > 4xx : erreur du client (requête incorrecte, ex. 404). 5xx : erreur du serveur (ex. 500).
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > Le serveur répond 3xx avec la nouvelle adresse (Location). C’est le navigateur qui refait la requête. 
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > http://google.fr redirige vers https://www.google.fr. 
 
 ---
 
@@ -158,19 +158,19 @@
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > L’adresse IP, le navigateur et le système (User-Agent), la langue (Accept-Language). 
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > Afficher automatiquement Wikipédia dans votre langue.
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   > Cherchez la ligne avec 404 dans votre log : la page demandée est le chemin après GET.
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > Elle n'est pas vraiment anonyme, on arrive à retrouver des informations sur nous et notre ordinateur. 
 
 ---
 
@@ -178,15 +178,15 @@
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > HTML : une page mise en forme, faite pour un humain qui la lit dans le navigateur. JSON : des données brutes, faites pour un programme.
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > Serveur : le code qui calcule l’heure et l’envoie en JSON (Python, PHP…). Navigateur : le JavaScript qui récupère ce JSON (fetch) et met l’heure à jour sur la page. Vérifiez dans votre code de /horloge, car je ne l’ai pas sous les yeux. 
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > Une application météo : elle envoie votre position et reçoit la température et les prévisions. 
 
 ---
 
