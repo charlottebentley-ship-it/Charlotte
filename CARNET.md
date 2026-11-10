@@ -194,4 +194,4 @@
 
 En quelques phrases, expliquez à un ami ce qui se passe entre le moment où il tape une adresse dans son navigateur et celui où la page s'affiche :
 
-> _Ma réponse :_ 
+> Il y a tout un code derrière un site internet et donc une simple adresse, l'adresse amène vers pleins de codes différent selon la recherche.
